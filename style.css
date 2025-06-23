@@ -1,7 +1,85 @@
-html, body {
+/* Resetando estilos padrões de margem e padding */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-canvas {
+
+/* Definindo o background e a cor do texto */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Título principal */
+h1 {
+  font-size: 2.5rem;
+  color: #005b3d; /* Cor verde para combinar com o tema agro */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Estilo para os parágrafos */
+p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+/* Estilo para a imagem */
+img {
   display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Separando as seções de conteúdo */
+main {
+  margin-top: 30px;
+}
+
+/* Estilos para os títulos menores */
+h2 {
+  font-size: 1.8rem;
+  color: #008c4e;
+  margin-top: 25px;
+  text-align: center;
+}
+
+/* Estilo do cabeçalho */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Adicionando uma borda suave ao redor do conteúdo */
+section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Definindo um estilo mais refinado para o corpo da página */
+section p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.8;
+}
+
+/* Melhorando a navegação, caso adicione links no futuro */
+a {
+  color: #005b3d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
