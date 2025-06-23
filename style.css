@@ -11,75 +11,61 @@ body {
   background-color: #f0f0f0;
   color: #333;
   line-height: 1.6;
-  padding: 20px;
+  padding: 0 20px;
+  text-align: center; /* Centraliza todo o conteúdo */
 }
 
-/* Título principal */
+/* Estilo para o título principal */
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   color: #005b3d; /* Cor verde para combinar com o tema agro */
-  margin-bottom: 15px;
-  text-align: center;
+  margin: 20px 0;
+}
+
+/* Estilo para os subtítulos (h2) */
+h2 {
+  font-size: 2rem;
+  color: #007f4d;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 /* Estilo para os parágrafos */
 p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #555;
   margin-bottom: 20px;
-  text-align: justify;
-  text-indent: 20px;
+  text-align: justify;  /* Para melhorar a leitura */
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Estilo para a imagem */
+/* Estilo para as imagens */
 img {
   display: block;
   margin: 20px auto;
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 10px;  /* Bordas arredondadas */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra sutil */
 }
 
-/* Separando as seções de conteúdo */
-main {
-  margin-top: 30px;
-}
-
-/* Estilos para os títulos menores */
-h2 {
-  font-size: 1.8rem;
-  color: #008c4e;
-  margin-top: 25px;
-  text-align: center;
-}
-
-/* Estilo do cabeçalho */
-header {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-/* Adicionando uma borda suave ao redor do conteúdo */
+/* Separando as seções com fundo branco e bordas arredondadas */
 section {
   background-color: white;
   padding: 20px;
+  margin-bottom: 30px;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Definindo um estilo mais refinado para o corpo da página */
-section p {
-  font-size: 1.1rem;
-  color: #444;
-  line-height: 1.8;
+/* Centralizando o conteúdo dentro do header e body */
+header {
+  margin-top: 40px;
 }
 
-/* Melhorando a navegação, caso adicione links no futuro */
-a {
-  color: #005b3d;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+/* Adicionando um espaçamento maior no final para rodapé ou outros conteúdos */
+main {
+  margin-bottom: 40px;
 }
